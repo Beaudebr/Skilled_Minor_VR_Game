@@ -12,6 +12,8 @@ public class EnemyBehaviour : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+
+        animator.enabled = true;
     }
 
     public void TakeHit(Damager damager, bool isHead)
@@ -46,7 +48,7 @@ public class EnemyBehaviour : MonoBehaviour
 
         if(HP <= 0)
         {
-            animator.SetBool("IsDead", true);
+            animator.enabled = false;
         }
     }
 
