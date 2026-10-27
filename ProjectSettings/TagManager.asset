@@ -32,6 +32,7 @@ TagManager:
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
   - QDSUIToggleThumbnail
+  - Magazine
   layers:
   - Default
   - TransparentFX
@@ -42,8 +43,8 @@ TagManager:
   - Left Hand Physics
   - Right Hand Physics
   - Non Physics Hand Layer
-  - 
-  - 
+  - Grab Interactible
+  - Player
   - 
   - 
   - 
